@@ -1,33 +1,53 @@
 # Tarea 04 - Procesamiento de Lenguaje Natural
 
-## Generación de texto sobre los páramos de Colombia
+## Generación de texto a partir de reseñas de productos en español
 
 Este repositorio contiene el desarrollo de la Tarea 04 del curso de
 Procesamiento de Lenguaje Natural.
 
-El objetivo del trabajo es experimentar con técnicas de generación de texto,
-manteniendo como dominio de análisis el corpus utilizado en las actividades
-anteriores relacionado con los páramos de Colombia.
+El proyecto utiliza el dataset **Amazon Reviews Multi** en español,
+manteniendo continuidad con actividades anteriores del curso.
 
-## Objetivos
+El propósito del trabajo es analizar cómo diferentes estrategias de
+decodificación afectan la generación de reseñas de productos en español.
 
-- Explorar las características principales del corpus.
-- Preparar el texto para una tarea de modelado de lenguaje.
-- Implementar un proceso de generación de texto.
-- Analizar la predicción del siguiente token.
-- Experimentar con diferentes estrategias de decodificación.
-- Comparar los resultados obtenidos.
-- Analizar el efecto de diferentes parámetros sobre el texto generado.
+## Pregunta de investigación
 
-## Técnicas a explorar
+**¿Cómo afectan diferentes estrategias de decodificación a la diversidad,
+repetición y coherencia de textos generados por un modelo de lenguaje?**
 
-- Tokenización
-- Modelado de lenguaje
-- Predicción del siguiente token
-- Decodificación Greedy
+## Dataset
+
+Se utiliza el dataset:
+
+`mteb/amazon_reviews_multi`
+
+en su configuración en español.
+
+El dataset contiene reseñas de productos de Amazon junto con sus
+respectivas calificaciones.
+
+## Estrategias de generación
+
+Durante el experimento se compararán:
+
+- Greedy Decoding
 - Sampling
 - Temperature Sampling
-- Comparación de estrategias de generación
+- Top-k Sampling
+- Top-p o Nucleus Sampling
+
+## Evaluación
+
+Los textos generados serán comparados mediante:
+
+- Longitud del texto
+- Diversidad léxica
+- Distinct-1
+- Distinct-2
+- Repetición
+- Coherencia semántica
+- Análisis cualitativo de ejemplos
 
 ## Curso
 
