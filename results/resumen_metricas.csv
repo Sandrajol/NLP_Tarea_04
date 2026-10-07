@@ -1,0 +1,7 @@
+estrategia,longitud,distinct_1,distinct_2,repeticion,coherencia
+Greedy,47.0,0.128,0.174,0.872,0.966
+Sampling,46.1,0.826,0.993,0.174,0.42
+Temperature 0.8,48.2,0.782,0.979,0.218,0.467
+Top-k,48.2,0.703,0.929,0.297,0.449
+Top-k + Top-p,46.3,0.686,0.912,0.314,0.585
+Top-p,48.2,0.708,0.949,0.292,0.453
